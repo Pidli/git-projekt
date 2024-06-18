@@ -37,4 +37,17 @@ https://git-scm.com/downloads
 //nktere soubory a slozky nechcete davta do git historie
 //hesla, vendor, node_modules, aj...
 
-//soubory ktere se nemaji gitovat se uvedou v souzboru .gitignore
+//soubory ktere se nemaji gitovat se uvedou v souboru .gitignore
+
+//nyni nasi git historii uploadneme do GitHubu
+//github je sluzba od microsoftu pro ukladani git historie
+//z githubu je pak mozne projekty sdilet s ostatnimi lidmi
+//bud v source contorll klikne na publich branch nebo dole v levem rohu je mracek s sipkou
+//je mozne ze vas VSC vyzve k zadani prihlasovacich udaju do GitHubu
+
+//projekt muzete do githubu poslat jako privatni nebo jako verejny projekt
+
+//muzeme se z gitu stahnout jakykoliv verejny projektu
+//projekt muzeme stahnout 2 zpusoby
+//FORK - pokud chcete autorovi do projektu prispivat
+//CLONE - pokud chcete projekt jen stahnou pro vlastni pozziti bez prispivani kodu do originalu
