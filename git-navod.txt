@@ -1,0 +1,26 @@
+//nejprve je potreba stahnout si git
+
+//ve VSC si otevreme source contorl
+//CTRL + SHIFT + G
+
+//odkaz pro stazeni
+https://git-scm.com/downloads
+
+//pri instalaci zaskrtnou add git bash to terminal
+//zvolit visual studio jako defualtni editor
+//zvolit hlavni nazev vetve jako "main"
+//pak uz odklikat next na vsechno
+
+//otevrit terminal na slozce projektu
+# git init
+
+//do slozky projektu se vytvroil neviditelna slozka, ktery se jmenuje .git
+//v teto slozce je ulozena cela historie projektu
+
+//stavy souboru
+// U - untracked: soubor jeste v historii gitu neexistuje
+// A - added: soubor byl nove pridan do git historie
+// M - modified: soubor v historii uz je ale nejakym zpusobem se zmenil
+// D - deleted: soubor je oznacen jako smazany, v historii ale zustava
+
+//udelame nas prvni commit
