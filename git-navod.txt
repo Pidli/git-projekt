@@ -24,3 +24,17 @@ https://git-scm.com/downloads
 // D - deleted: soubor je oznacen jako smazany, v historii ale zustava
 
 //udelame nas prvni commit
+//musime soubory prenest so staging faze
+//pak musime pridta commitu nejak komentar a pak klikneme na commit
+//poku je to uplne prvni commit na tomto pocitaci, tak to zfailuje, protoze jeste neni nastvene jmeno a email autora commitu
+
+# git config --global user.name "Tony"
+
+# git config --global user.email "tonda.truong@primakurzy.cz"
+
+//po spusteni techto dvou prikazu muzete zkusit commit provest znovu
+
+//nktere soubory a slozky nechcete davta do git historie
+//hesla, vendor, node_modules, aj...
+
+//soubory ktere se nemaji gitovat se uvedou v souzboru .gitignore
